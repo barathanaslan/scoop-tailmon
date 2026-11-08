@@ -1,0 +1,18 @@
+{
+    "version": "0.3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/barathanaslan/tailmon/releases/download/v0.3.0/tailmon_0.3.0_windows_amd64.zip",
+            "bin": [
+                "tailmon.exe"
+            ],
+            "hash": "d672a789a76b53c6ad2a2986cf3c1207143b4474c9cdf7991403f371f8de3b49"
+        }
+    },
+    "homepage": "https://github.com/barathanaslan/tailmon",
+    "license": "MIT",
+    "description": "Tailnet-wide resource monitor (agent, TUI, JSON for AI tools)",
+    "post_install": [
+        "Write-Host \"Run the agent at boot from an elevated shell - tailmon service install\""
+    ]
+}
