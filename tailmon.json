@@ -1,12 +1,12 @@
 {
-    "version": "0.4.1",
+    "version": "0.4.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/barathanaslan/tailmon/releases/download/v0.4.1/tailmon_0.4.1_windows_amd64.zip",
+            "url": "https://github.com/barathanaslan/tailmon/releases/download/v0.4.2/tailmon_0.4.2_windows_amd64.zip",
             "bin": [
                 "tailmon.exe"
             ],
-            "hash": "8ee27cf2254f156ce1110b2ccb2861dbb3ada1fddcdd3bd6167d34c948ca43fb"
+            "hash": "0c6333abb66e64ff4a883dc2132afae22f9b2285945560f2f2d3457ebf60afb5"
         }
     },
     "homepage": "https://github.com/barathanaslan/tailmon",
